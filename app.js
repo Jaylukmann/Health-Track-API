@@ -13,9 +13,17 @@ import routineRoutes from "./routes/routineRoutes.js";
 
 const app = express();
 
+const allowedOrigins = [
+  "http://localhost:5173",
+  "http://localhost:3000",
+  "https://healthtrack-webapp.netlify.app",
+];
+
+
 app.use(
   cors({
-    origin: "http://localhost:5170",
+     origin: allowedOrigins,
+      credentials: true,
   })
 );
 app.use(express.json());
