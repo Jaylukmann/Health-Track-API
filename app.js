@@ -1,4 +1,3 @@
-
 import express from "express";
 import cors from "cors";
 import path from "path";
@@ -17,6 +16,7 @@ const allowedOrigins = [
   "http://localhost:5173",
   "http://localhost:3000",
   "https://healthtrack-webapp.netlify.app",
+  "https://health-track-seven-rho.vercel.app",
 ];
 
 
