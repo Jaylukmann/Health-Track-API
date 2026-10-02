@@ -470,7 +470,7 @@ Backend Developer | Blockchain Developer | Data Analyst
 
 GitHub:
 
-https://github.com/Jaylukmann/Health-Track
+https://github.com/Jaylukmann/Health-Track-API
 
 ## License
 
