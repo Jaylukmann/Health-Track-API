@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 const mongoose = require("mongoose");
+=======
+import mongoose from "mongoose";
+>>>>>>> ec93d60 (NOTIFICATION ADDED)
 
 const notificationSchema = new mongoose.Schema(
     {
@@ -62,4 +66,8 @@ const notificationSchema = new mongoose.Schema(
 
 const notificationModel = mongoose.model('Notification', notificationSchema);
 
+<<<<<<< HEAD
 module.exports = notificationModel;
+=======
+export default notificationModel;
+>>>>>>> ec93d60 (NOTIFICATION ADDED)
